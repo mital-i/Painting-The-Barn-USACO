@@ -6,7 +6,7 @@ coats_paint = int(input_value[1])
 
 paint_squares=[]
 
-for i in range(4):
+for i in range(num_rectangles):
     square=input().split()
     paint_squares.append(square)
     
